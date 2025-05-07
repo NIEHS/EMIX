@@ -17,58 +17,58 @@ The workflow considers the context of a researcher with an existing dataset or h
 
 ### Step 1. Conceptual Model Development
 
-•	Direct Acyclic Graph (DAG) analysis and Covariate Selection
+* Direct Acyclic Graph (DAG) analysis and Covariate Selection
 
 ### Step 2. Data Processing and Exploratory Analysis
 
-•	Examine the correlation of exposures 
-•	Examine statistical power
-•	Exposure dimension reduction (optional)
-•	Variable transformation (optional)
-•	Manage missing data
+* Examine the correlation of exposures 
+* Examine statistical power
+* Exposure dimension reduction (optional)
+* Variable transformation (optional)
+* Manage missing data
 
 ### Step 3. Study Design and Data Characteristics
 
 These steps can be addressed using the excel table column filters (0=no, 1=yes to the questions below).
 
-•	Single or repeated timepoints for exposures and outcomes: Is the study longitudinal, with repeated measurements of exposures and/or outcomes or is there only a single timepoint for the measurement of exposure and outcome variables?
-•	Spatial data: Does the study include data with spatial variation and/or does spatial correlation among outcomes need to be considered in the model?
-•	Distribution of the outcome: Does the dataset include a continuous, binary, categorical, count, or time-to-event (survival) outcome variable?
-•	Size of the dataset: How many individuals and how many exposures/variables are included in the dataset for analysis?
-•	Survey or sampling weights: Are there survey or sampling weights to include in the analysis?
+* Single or repeated timepoints for exposures and outcomes: Is the study longitudinal, with repeated measurements of exposures and/or outcomes or is there only a single timepoint for the measurement of exposure and outcome variables?
+* Spatial data: Does the study include data with spatial variation and/or does spatial correlation among outcomes need to be considered in the model?
+* Distribution of the outcome: Does the dataset include a continuous, binary, categorical, count, or time-to-event (survival) outcome variable?
+* Size of the dataset: How many individuals and how many exposures/variables are included in the dataset for analysis?
+* Survey or sampling weights: Are there survey or sampling weights to include in the analysis?
 
 ### Step 4. Scientific Knowledge
 
 These questions address the effects of exposures within a mixture on the outcome.
 
-•	Are exposures hypothesized to act in the same direction, or should the model allow for the possibility effects operate in different directions? 
-•	Is the exposure-response relationship likely to be non-linear? 
-•	Is there biological, toxicological, or other information about the potential effects of the exposures such as chemical groups that should be included in the statistical model? 
-•	Are there chemical properties/features to include in the model?
+* Are exposures hypothesized to act in the same direction, or should the model allow for the possibility effects operate in different directions? 
+* Is the exposure-response relationship likely to be non-linear? 
+* Is there biological, toxicological, or other information about the potential effects of the exposures such as chemical groups that should be included in the statistical model? 
+* Are there chemical properties/features to include in the model?
 
 ### Step 5. Research Questions
 
 These questions address the research question(s) of interest for the analysis. 
 
-•	Overall effect estimation: Do you wish to determine the overall or aggregate effect of the mixture of exposures on a health outcome?
-•	Individual exposure effects: Do you wish to identify independent effects of mixtures components (“toxic agents” or “bad actors”)?
-•	Interactions: Do you wish to allow potential interaction effects among mixture components?
-•	Mediation: Do you wish to examine either the role of a mediator on the pathway between a mixture and an outcome, or the role of a mixture as a mediator on the pathway of another risk factor and an outcome?
+* Overall effect estimation: Do you wish to determine the overall or aggregate effect of the mixture of exposures on a health outcome?
+* Individual exposure effects: Do you wish to identify independent effects of mixtures components (“toxic agents” or “bad actors”)?
+* Interactions: Do you wish to allow potential interaction effects among mixture components?
+* Mediation: Do you wish to examine either the role of a mediator on the pathway between a mixture and an outcome, or the role of a mixture as a mediator on the pathway of another risk factor and an outcome?
 
 ### Step 6. Assessment and Evaluation
 
 These prompts can be addressed after model implementation.
 
-•	Assumptions: Examine the underlying assumptions of each model identified relevant to a scenario (e.g., multivariate normal distribution, constant variance)
-•	Convergence: Confirm successful model convergence (e.g., by using trace plots, MCMC model output, etc.)
-•	Overfitting: Assess model results for fit and performance (e.g., evaluate “out-of-sample” data)
+* Assumptions: Examine the underlying assumptions of each model identified relevant to a scenario (e.g., multivariate normal distribution, constant variance)
+* Convergence: Confirm successful model convergence (e.g., by using trace plots, MCMC model output, etc.)
+* Overfitting: Assess model results for fit and performance (e.g., evaluate “out-of-sample” data)
 
 ## How to use the table
 
-•	Click on the excel file and view raw data, or download to a preferred location. 
-•	Ensure column filters are on
-•	To address workflow steps 3-5, select “1” to indicate a “yes” response for columns where a restriction is known. E.g., 
-•	A “0” indicates the response “no” and can be selected or left alone.
+* Click on the excel file and view raw data, or download to a preferred location. 
+* Ensure column filters are on
+* To address workflow steps 3-5, select “1” to indicate a “yes” response for columns where a restriction is known. E.g., 
+* A “0” indicates the response “no” and can be selected or left alone.
 
 ## Method Updates
 
