@@ -72,7 +72,7 @@ These prompts can be addressed after model implementation.
 
 ## Method Updates
 
-Methods can be updated, and new methods added by original methodologists. To do this, download and edit the table, then submit a push request. The update will be reviewed by NIEHS staff and posted to the site once updates are final. 
+Methods can be updated, and new methods added by original methodologists. To do this, download and edit the table, then submit a pull request. The update will be reviewed by NIEHS staff and posted to the site once updates are final. 
 
 Corrections, clarifications, or questions can also be submitted via email to the EMIX repository owners.
 
