@@ -3,13 +3,13 @@ Repository of statistical methods for environmental mixtures analyses in epidemi
 
 ## Description
 
-EMIX provides a repository of statistical methods for environmental mixtures analyses in epidemiology. The EMIX_Methods file lists example statistical methods, including the summary, original methods publication, and link to R code for implementation. For each method, column headers also describe alignment to steps 3-5 of a workflow that can be used to identify methods for a given application/scenario, described in Joubert et al., medRxiv 2024 (https://doi.org/10.1101/2024.12.20.24318087; in press with Environmental Health Perspectives DOI 10.1289/EHP16791. 
+EMIX provides a repository of statistical methods for environmental mixtures analyses in epidemiology. The EMIX_Methods file lists example statistical methods, including the summary, original methods publication, and link to R code for implementation. For each method, column headers also describe alignment to steps 3-5 of a workflow that can be used to identify methods for a given application/scenario, described in Joubert et al., medRxiv 2024 (https://doi.org/10.1101/2024.12.20.24318087 and Environmental Health Perspectives DOI 10.1289/EHP16791 (https://pubmed.ncbi.nlm.nih.gov/40526489/). 
 
 ## Background
 
 Human exposure to complex, changing, and variably correlated mixtures of environmental exposures is a common analytical challenge for epidemiologists and human health researchers. Fortunately, a wide variety of statistical methods for analyzing mixtures data exists, and most methods have open-source software for implementation. However, there is no one-size-fits-all method for analyzing mixtures data given the considerable heterogeneity in scientific focus and study design. For example, some methods focus on predicting the overall health effect of a mixture and others seek to disentangle main effects and pairwise interactions. Some methods are only appropriate for cross-sectional designs, while other methods can accommodate longitudinally measured exposures or outcomes.
 
-A recently published article presents a workflow researchers can apply to statistical analysis considerations in environmental mixtures data (Joubert et al., medRxiv 2024, doi 10.1101/2024.12.20.24318087; Environmental Health Perspectives 2025 DOI 10.1289/EHP16791, in press). The strategy builds on epidemiological and statistical principles, tailored to specific nuances of the mixtures’ context. The workflow involves six steps (Figure 1), three of which can be considered by using the accompanying EMIX_Methods table.  
+A recently published article presents a workflow researchers can apply to statistical analysis considerations in environmental mixtures data (Joubert et al., Environmental Health Perspectives 2025 DOI 10.1289/EHP16791). The strategy builds on epidemiological and statistical principles, tailored to specific nuances of the mixtures’ context. The workflow involves six steps (Figure 1), three of which can be considered by using the accompanying EMIX_Methods table.  
 
 ## Workflow Overview
 
