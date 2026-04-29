@@ -85,7 +85,7 @@ Methods can be updated, and new methods added by original methodologists. To do 
 
 Corrections, clarifications, or questions can also be submitted via email to the EMIX repository owners.
 
-## Exammple applications
+## Example applications
 
 NHANES example: dataprep_descriptives.nhanes.r 
 ReCHARGE example: dataprep_descriptives.recharge.r
