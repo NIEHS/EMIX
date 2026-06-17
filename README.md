@@ -1,6 +1,10 @@
 # EMIX
 Repository of statistical methods for environmental mixtures analyses in epidemiology.
 
+## Maintainer
+
+Joubert, Bonnie (NIH/NIEHS)  <bonnie.joubert@nih.gov>
+
 ## Description
 
 EMIX provides a repository of statistical methods for environmental mixtures analyses in epidemiology. The EMIX_Methods excel file lists example statistical methods, including the summary, original methods publication, and link to R code for implementation. For each method, column headers also describe alignment to steps 3-5 of a workflow that can be used to identify methods for a given application/scenario, described in Joubert et al., Environmental Health Perspectives, DOI: 10.1021/EHP.6c00155 (https://pubs.acs.org/doi/10.1021/EHP.6c00155). 
